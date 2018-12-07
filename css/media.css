@@ -1,0 +1,62 @@
+@media only screen and (max-width: 1190px) {
+    body{
+        background-color: #535353;
+    }
+    h1{
+        position: relative;
+    }
+
+    /*.box {*/
+        /*width: auto;*/
+        /*margin: 10px;*/
+        /*float: none;*/
+    /*}*/
+
+    /*.box1 {*/
+        /*width: auto;*/
+        /*margin: 10px;*/
+        /*float: none;*/
+    /*}*/
+}
+@media only screen and (max-width: 990px) {
+    header{
+        position: static;
+    }
+    header form{
+        float: left;
+    }
+    header .logo{
+        float: none;
+    }
+    li{
+        display: inline;
+        font-size: 20px;
+        padding: 10px;
+        float: none;
+    }
+    .bar{
+        margin-top: 12px;
+        margin-left: 5px;
+
+    }
+    #backtop{
+        display: none;
+    }
+    h1 {
+        text-transform: uppercase;
+        border-bottom: solid 2px #ff0000;
+        padding-bottom: 11px;
+        font-size: 20px;
+        position: static;
+    }
+    .centr{
+        position: static;
+    }
+}
+@media only screen and (max-width: 765px){
+    li{
+        font-size: 14px;
+        padding: 8px;
+    }
+
+}
