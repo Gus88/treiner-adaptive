@@ -23,7 +23,7 @@
         position: static;
     }
     header form{
-        float: left;
+        float: right;
     }
     header .logo{
         float: none;
@@ -57,6 +57,36 @@
     li{
         font-size: 14px;
         padding: 8px;
+    }
+}
+@media only screen and (max-width: 590px){
+    header form input{
+        font-size: 14px;
+        padding-left: 14px;
+        min-width: 140px;
+        float: left;
+
+    }
+    li{
+        font-size: 22px;
+        display: block;
+        margin: 10px;
+    }
+    .sign{
+        line-height: 40px;
+        width: 100%;
+        margin: 8px;
+    }
+    .login{
+        line-height: 40px;
+        width: 100%;
+        margin: 8px;
+    }
+    form{
+        display: block;
+        width: 100%;
+        margin-right: 8px;
+        float: none;
     }
 
 }
