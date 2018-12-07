@@ -131,7 +131,8 @@ nav div a i{
     background-color: #fa090a;
     margin-top: 20px;
     margin-left: 15px;
-    float: right;
+    float: left;
+    display: inline;
 }
 div ul li a:hover{
     border-bottom: red solid 4px;
@@ -151,6 +152,7 @@ section{
 h1 {
     font-family: 'Bebas Neue' ;
     position: absolute;
+
     text-transform: uppercase;
     width: 100%;
     text-align: center;
