@@ -88,5 +88,12 @@
         margin-right: 8px;
         float: none;
     }
+}
+@media only screen and (max-width: 390px){
+    .logo{
+        display: block;
+        overflow: hidden;
+
+    }
 
 }
